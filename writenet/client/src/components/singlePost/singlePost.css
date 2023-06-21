@@ -1,0 +1,100 @@
+.singlePost{
+    flex: 9;
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.singlePostTitleInput{
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid lightblue;
+}
+
+.singlePostTitleInput:focus{
+    outline: none;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color: aqua;
+}
+
+.singlePostIcon:last-child{
+    color: tomato;
+}
+
+.singlePostInfo{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(70, 32, 5);
+}
+
+.singlePostDesc{
+    color: rgb(37, 5, 5);
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.singlePostDescInput{
+    border: none;
+    color: rgb(37, 5, 5);
+    font-size: 18px;
+    line-height: 20px;
+    border-bottom: 1px solid lightcyan;
+
+}
+
+.singlePostDescInput:focus{
+    outline: none;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.singlePostButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(21, 110, 124);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    align-self: flex-end;
+}

@@ -1,0 +1,68 @@
+.about{
+    height: 92.2vh;
+    background: linear-gradient(rgba(21, 110, 124, 0.4),
+    rgba(123, 236, 254, 0.5)),
+     url('./sidebar-img.jpg');
+     background-size: cover;
+
+}
+
+.aboutImg{
+    float: right;
+    height: 450px;
+    width: 25%;
+    display: flex;
+    object-fit: cover;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 80px;
+}
+
+h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    display: block;
+    font-size: 2.67em;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li{
+    list-style: none;
+    font-size: 16px;
+}
+
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: -15px;
+}

@@ -1,0 +1,54 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    background: linear-gradient(rgba(21, 110, 124, 0.4),
+    rgba(123, 236, 254, 0.5)),
+     url('./sidebar-img.jpg');
+     background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > lable{
+    margin: 20px 0px;
+}
+
+.registerInput{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(243, 243, 237);
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(21, 110, 124);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(159, 70, 100);
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
